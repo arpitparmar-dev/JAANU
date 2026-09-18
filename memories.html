@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <nav class="top-nav">
+            <span>02 / 07</span>
+            <a href="welcome.html">←</a>
+        </nav>
+
+        <main class="content-page">
+            <p class="eyebrow">OUR MEMORIES</p>
+            <h1>Little moments.<br><span>Big memories.</span></h1>
+            <p class="page-description">
+                Six little pieces of our story. Click a photo to open it.
+            </p>
+
+            <div class="photo-grid">
+                <div class="photo-card" data-caption="One of my favorite memories ❤️">
+                    <img src="assets/photos/photo1.jpeg" alt="Memory 1">
+                </div>
+                <div class="photo-card" data-caption="This moment will always make me smile.">
+                    <img src="assets/photos/photo2.jpeg" alt="Memory 2">
+                </div>
+                <div class="photo-card" data-caption="You make ordinary moments special.">
+                    <img src="assets/photos/photo3.jpeg" alt="Memory 3">
+                </div>
+                <div class="photo-card" data-caption="Just you and me. ❤️">
+                    <img src="assets/photos/photo4.jpeg" alt="Memory 4">
+                </div>
+                <div class="photo-card" data-caption="A memory I'll never forget.">
+                    <img src="assets/photos/photo5.jpeg" alt="Memory 5">
+                </div>
+                <div class="photo-card" data-caption="Here's to many more. ♾️">
+                    <img src="assets/photos/photo6.jpeg" alt="Memory 6">
+                </div>
+            </div>
+
+            <a href="story.html" class="main-btn">
+                Continue our story <span>→</span>
+            </a>
+        </main>
+    </div>
+
+    <div id="photoModal" class="photo-modal">
+        <button id="closePhoto">×</button>
+        <img id="modalImage" src="" alt="Selected memory">
+        <p id="modalCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
